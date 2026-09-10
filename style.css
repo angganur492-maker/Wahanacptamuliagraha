@@ -272,23 +272,24 @@ button { font-family: inherit; cursor: pointer; }
 
 .prize-card__icon {
   display: block;
-  font-size: 1.9rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
   margin-bottom: 8px;
 }
 
 .prize-card--small .prize-card__icon {
-  font-size: 1.4rem;
+  border-radius: 10px;
   margin-bottom: 6px;
 }
 
 .prize-card__name {
   font-weight: 700;
-  font-size: 0.88rem;
   color: var(--ink);
 }
 
 .prize-card--small .prize-card__name {
-  font-size: 0.76rem;
   font-weight: 600;
 }
 
