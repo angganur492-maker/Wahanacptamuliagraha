@@ -115,7 +115,8 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: flex-end;
+  align-items: center; 
+  justify-content: center; 
   overflow: hidden;
 }
 
