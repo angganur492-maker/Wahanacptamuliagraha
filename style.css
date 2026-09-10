@@ -115,8 +115,7 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: flex-end; /* Ini yang membuatnya di bawah */
   overflow: hidden;
 }
 
