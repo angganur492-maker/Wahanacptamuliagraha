@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Family Gathering 2026 — PT Wahanacipta Muliagraha</title>
+<meta name="description" content="Undangan Family Gathering PT Wahanacipta Muliagraha ke Dufan Ancol">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgm" loop preload="none">
+  <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicToggle" class="music-toggle" aria-label="Putar musik" aria-pressed="false">
+  <svg viewBox="0 0 24 24" class="icon-note" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+</button>
+
+<main id="app">
+
+  <!-- ================= PAGE 1 — HERO ================= -->
+  <section class="page active" id="page-home" data-page="home">
+    <div class="hero">
+      <img class="hero__poster" src="assets/hero-poster.jpg" alt="Poster Family Gathering PT Wahanacipta Muliagraha ke Dufan">
+      <div class="hero__scrim"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">PT Wahanacipta Muliagraha mengundang</p>
+        <h1 class="hero__title">Family<br>Gathering</h1>
+        <p class="hero__date">Minggu, 04 Oktober 2026 · Dufan, Ancol</p>
+        <button class="btn btn--primary btn--open" id="btnOpen">
+          Buka Undangan
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PAGE 2 — DOORPRIZE ================= -->
+  <section class="page" id="page-prizes" data-page="prizes">
+    <header class="page-head">
+      <p class="page-head__eyebrow">Ada yang menanti pulangmu</p>
+      <h2 class="page-head__title">Doorprize</h2>
+      <p class="page-head__sub">Dua kategori hadiah, semua peserta berkesempatan membawa pulang.</p>
+    </header>
+
+    <div class="prize-group prize-group--main">
+      <div class="prize-group__label">
+        <span class="prize-group__badge">Hadiah Utama</span>
+      </div>
+      <ul class="prize-list">
+        <li class="prize-card">
+          <span class="prize-card__icon">🚲</span>
+          <span class="prize-card__name">Sepeda Listrik</span>
+        </li>
+        <li class="prize-card">
+          <span class="prize-card__icon">📺</span>
+          <span class="prize-card__name">Televisi</span>
+        </li>
+        <li class="prize-card">
+          <span class="prize-card__icon">🧊</span>
+          <span class="prize-card__name">Kulkas</span>
+        </li>
+        <li class="prize-card">
+          <span class="prize-card__icon">🌀</span>
+          <span class="prize-card__name">Mesin Cuci</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="prize-group prize-group--consolation">
+      <div class="prize-group__label">
+        <span class="prize-group__badge prize-group__badge--alt">Hadiah Penghibur</span>
+      </div>
+      <ul class="prize-list prize-list--small">
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">👕</span>
+          <span class="prize-card__name">Setrika</span>
+        </li>
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">🔥</span>
+          <span class="prize-card__name">Kompor</span>
+        </li>
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">🍃</span>
+          <span class="prize-card__name">Kipas Angin</span>
+        </li>
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">🥤</span>
+          <span class="prize-card__name">Blender</span>
+        </li>
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">🍚</span>
+          <span class="prize-card__name">Rice Cooker</span>
+        </li>
+        <li class="prize-card prize-card--small">
+          <span class="prize-card__icon">🧹</span>
+          <span class="prize-card__name">Vacuum Cleaner</span>
+        </li>
+      </ul>
+    </div>
+
+    <button class="btn btn--primary btn--next" data-goto="rundown">
+      Lihat Rundown Acara
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </section>
+
+  <!-- ================= PAGE 3 — RUNDOWN ================= -->
+  <section class="page" id="page-rundown" data-page="rundown">
+    <header class="page-head">
+      <p class="page-head__eyebrow">Susun harimu</p>
+      <h2 class="page-head__title">Rundown Acara</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="timeline__item">
+        <span class="timeline__time">06.30 – 07.00</span>
+        <span class="timeline__text">Berkumpul dan berangkat dari kantor</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">07.00 – 08.30</span>
+        <span class="timeline__text">Perjalanan dari kantor ke Ancol</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">08.30</span>
+        <span class="timeline__text">Mobil pribadi sampai Ancol</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">09.00 – 09.30</span>
+        <span class="timeline__text">Registrasi tiket dan pembagian makan siang</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">09.30 – 10.00</span>
+        <span class="timeline__text">Foto bersama</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">10.00 – 15.00</span>
+        <span class="timeline__text">Acara bebas bermain di Dufan</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">15.00 – 15.30</span>
+        <span class="timeline__text">Menuju Bandar Jakarta</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">16.00 – 18.00</span>
+        <span class="timeline__text">Makan bersama</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">18.00 – 19.00</span>
+        <span class="timeline__text">Acara ramah tamah dan doorprize</span>
+      </li>
+      <li class="timeline__item">
+        <span class="timeline__time">19.00 – 19.15</span>
+        <span class="timeline__text">Penutupan dan doa bersama</span>
+      </li>
+      <li class="timeline__item timeline__item--end">
+        <span class="timeline__time">🚌</span>
+        <span class="timeline__text">Perjalanan pulang</span>
+      </li>
+    </ol>
+
+    <button class="btn btn--primary btn--next" data-goto="rsvp">
+      Konfirmasi Kehadiran
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </section>
+
+  <!-- ================= PAGE 4 — COUNTDOWN + RSVP ================= -->
+  <section class="page" id="page-rsvp" data-page="rsvp">
+    <header class="page-head">
+      <p class="page-head__eyebrow">Tinggal menghitung hari</p>
+      <h2 class="page-head__title">Sampai Bertemu</h2>
+    </header>
+
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="countdown__unit">
+        <span class="countdown__num" id="cd-days">00</span>
+        <span class="countdown__label">Hari</span>
+      </div>
+      <div class="countdown__unit">
+        <span class="countdown__num" id="cd-hours">00</span>
+        <span class="countdown__label">Jam</span>
+      </div>
+      <div class="countdown__unit">
+        <span class="countdown__num" id="cd-mins">00</span>
+        <span class="countdown__label">Menit</span>
+      </div>
+      <div class="countdown__unit">
+        <span class="countdown__num" id="cd-secs">00</span>
+        <span class="countdown__label">Detik</span>
+      </div>
+    </div>
+
+    <form id="rsvpForm" class="rsvp-form">
+      <label class="field">
+        <span class="field__label">Nama lengkap</span>
+        <input type="text" id="rsvpName" name="name" placeholder="Tulis namamu" required autocomplete="name">
+      </label>
+
+      <fieldset class="field field--choice">
+        <legend class="field__label">Apakah kamu hadir?</legend>
+        <div class="choice-group">
+          <label class="choice-pill">
+            <input type="radio" name="attending" value="Hadir" required>
+            <span>Hadir</span>
+          </label>
+          <label class="choice-pill">
+            <input type="radio" name="attending" value="Tidak Hadir" required>
+            <span>Tidak Hadir</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="btn btn--primary btn--submit" id="rsvpSubmit">
+        Kirim Konfirmasi
+      </button>
+
+      <p class="rsvp-status" id="rsvpStatus" role="status"></p>
+    </form>
+  </section>
+
+</main>
+
+<nav class="bottom-nav" id="bottomNav">
+  <button class="bottom-nav__item" data-goto="home" aria-label="Beranda">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+  </button>
+  <button class="bottom-nav__item" data-goto="prizes" aria-label="Doorprize">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M3 8h18M12 8v13M12 8c-2 0-3.5-1.5-3.5-3S8.5 2 10 2s2 2.5 2 3.5"/><path d="M12 8c2 0 3.5-1.5 3.5-3S14.5 2 13 2s-2 2.5-2 3.5"/></svg>
+  </button>
+  <button class="bottom-nav__item" data-goto="rundown" aria-label="Rundown">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+  </button>
+  <button class="bottom-nav__item" data-goto="rsvp" aria-label="Konfirmasi">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v14H8l-4 4V4z"/></svg>
+  </button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
