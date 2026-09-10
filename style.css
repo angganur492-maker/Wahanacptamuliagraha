@@ -285,12 +285,10 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .prize-card__name {
-  font-weight: 700;
   color: var(--ink);
 }
 
 .prize-card--small .prize-card__name {
-  font-weight: 600;
 }
 
 /* ================= PAGE 3 — RUNDOWN ================= */
