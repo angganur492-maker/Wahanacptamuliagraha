@@ -272,7 +272,7 @@ button { font-family: inherit; cursor: pointer; }
 
 .prize-card__icon {
   display: block;
-  width: 100%;
+  width: 75%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: var(--radius-sm);
