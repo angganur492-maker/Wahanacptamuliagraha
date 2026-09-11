@@ -10,7 +10,7 @@
 // instruksi pembuatan situs ini minta countdown ke 25 September 2026.
 // Nilai di bawah memakai 25 September 2026 sesuai instruksi — cek lagi
 // tanggal mana yang benar, lalu sesuaikan baris ini bila perlu.
-const EVENT_DATE = new Date("2026-09-25T06:30:00+07:00");
+const EVENT_DATE = new Date("2026-10-04T06:30:00+07:00");
 
 // URL Web App dari Google Apps Script (lihat file apps-script.gs & README.md
 // untuk cara deploy-nya). Kosongkan "" akan membuat form hanya menampilkan
