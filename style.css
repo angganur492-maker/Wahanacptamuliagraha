@@ -87,7 +87,7 @@ button { font-family: inherit; cursor: pointer; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.88); /* naikkan/turunkan 0.88 untuk atur transparansi */
+  background: rgba(255, 255, 255, 0.01); /* naikkan/turunkan 0.88 untuk atur transparansi */
   z-index: -1;
 }
 
