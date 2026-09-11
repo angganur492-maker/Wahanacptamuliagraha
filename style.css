@@ -69,13 +69,16 @@ button { font-family: inherit; cursor: pointer; }
   padding: 0 20px 32px;
   animation: fadeSlide 0.45s ease both;
 }
-   {
+
+#page-prizes,
+#page-rundown,
+#page-rsvp {
   position: relative;
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  isolation: isolate; /* biar overlay tidak bocor ke elemen lain */
+  isolation: isolate;
 }
 
 #page-prizes::before,
