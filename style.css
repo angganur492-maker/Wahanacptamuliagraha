@@ -95,7 +95,6 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--shadow-soft);
 }
 
 .music-toggle[aria-pressed="true"] .icon-note {
