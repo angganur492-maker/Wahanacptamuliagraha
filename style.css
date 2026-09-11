@@ -189,7 +189,13 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: 0 14px 26px -10px rgba(27, 111, 168, 0.55);
 }
 
-.btn--open { margin-top: 22px; }
+.btn--floating {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
 
 .btn--next {
   width: 100%;
