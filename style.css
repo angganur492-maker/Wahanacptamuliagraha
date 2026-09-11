@@ -68,6 +68,30 @@ button { font-family: inherit; cursor: pointer; }
   display: none;
   padding: 0 20px 32px;
   animation: fadeSlide 0.45s ease both;
+#page-prizes,
+#page-rundown,
+#page-rsvp {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  isolation: isolate; /* biar overlay tidak bocor ke elemen lain */
+}
+
+#page-prizes::before,
+#page-rundown::before,
+#page-rsvp::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.88); /* naikkan/turunkan 0.88 untuk atur transparansi */
+  z-index: -1;
+}
+
+#page-prizes  { background-image: url("assets/backgrounds/prizes-bg.jpg"); }
+#page-rundown { background-image: url("assets/backgrounds/rundown-bg.jpg"); }
+#page-rsvp    { background-image: url("assets/backgrounds/rsvp-bg.jpg"); }
 }
 
 .page.active { display: block; }
