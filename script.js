@@ -15,7 +15,7 @@ const EVENT_DATE = new Date("2026-10-04T06:30:00+07:00");
 // URL Web App dari Google Apps Script (lihat file apps-script.gs & README.md
 // untuk cara deploy-nya). Kosongkan "" akan membuat form hanya menampilkan
 // pesan sukses tanpa benar-benar mengirim data.
-const SHEET_WEB_APP_URL = "PASTE_URL_GOOGLE_APPS_SCRIPT_DI_SINI";
+const SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyHoiNplQPCqlimqKa1Ct_VAf88KFbCPS2Dr4evQj9BQgWQiV9cJFH6pS5m-81tDPTp/exec";
 
 // ---------------------------------------------------------------------
 
